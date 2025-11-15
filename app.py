@@ -87,8 +87,9 @@ st.markdown("""
 # ---------------------------------------------------------
 # Load Model
 # ---------------------------------------------------------
-model = pickle.load(open(r"C:\Users\DELL\Downloads\ShipmentSure\best_model.pkl", "rb"))
-train_columns = pickle.load(open(r"C:\Users\DELL\Downloads\ShipmentSure\train_columns.pkl", "rb"))
+model = pickle.load(open("best_model.pkl", "rb"))
+train_columns = pickle.load(open("train_columns.pkl", "rb"))
+
 
 # ---------------------------------------------------------
 # Input Form Card
@@ -163,3 +164,4 @@ if predict_btn:
         st.error("⏳ The shipment is predicted **LATE**")
 
     st.markdown("</div>", unsafe_allow_html=True)
+
