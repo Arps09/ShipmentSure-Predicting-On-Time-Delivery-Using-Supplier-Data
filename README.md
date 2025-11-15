@@ -55,40 +55,152 @@ The project covers the complete end-to-end ML workflow:
 - Strong positive correlation: **Cost ↔ Weight**  
 - Higher discounts associated with **late deliveries**  
 
-### 🔸 Distribution of Target Variable
+## 📊 Exploratory Data Analysis (EDA)
+
+Below are key visual insights from the dataset.
+
+---
+
+### 🔥 1. Target Variable Distribution
 <p align="center">
-  <img src="assets/eda/target_distribution.png" alt="Target Distribution" width="600"/>
+  <img src="assets/eda/Target Variable Distribution.png" width="650">
 </p>
 
 ---
 
-### 🔸 Mode of Shipment Distribution
+### 🔥 2. Before & After SMOTE (Class Balancing)
+
+#### 📌 Bar Comparison
 <p align="center">
-  <img src="assets/eda/mode_of_shipment.png" alt="Mode of Shipment" width="600"/>
+  <img src="assets/eda/before_after_smote.png" width="750">
+</p>
+
+#### 📌 Pie Comparison
+<p align="center">
+  <img src="assets/eda/before_after_smote_pie.png" width="750">
 </p>
 
 ---
 
-### 🔸 Discount Offered vs Delivery Status
+## 🔸 3. Categorical Feature Distributions
+
+### 📦 Warehouse Block Distribution
 <p align="center">
-  <img src="assets/eda/discount_vs_status.png" alt="Discount vs Status" width="600"/>
+  <img src="assets/eda/warehouse_block_dist.png" width="600">
+</p>
+
+### 🚚 Mode of Shipment Distribution
+<p align="center">
+  <img src="assets/eda/mode_of_shipment_dist.png" width="600">
+</p>
+
+### 🎚 Product Importance Distribution
+<p align="center">
+  <img src="assets/eda/Product_importance_dist.png" width="600">
+</p>
+
+### 👤 Gender Distribution
+<p align="center">
+  <img src="assets/eda/Gender_dist.png" width="600">
 </p>
 
 ---
 
-### 🔸 Correlation Heatmap
+## 🔸 4. Numerical Feature Distributions
+
+### ☎ Customer Care Calls
 <p align="center">
-  <img src="assets/eda/correlation_heatmap.png" alt="Correlation Heatmap" width="600"/>
+  <img src="assets/eda/customer_calls_dist.png" width="600">
+</p>
+
+### ⭐ Customer Rating
+<p align="center">
+  <img src="assets/eda/customer_rating_dist.png" width="600">
+</p>
+
+### 💰 Cost of the Product
+<p align="center">
+  <img src="assets/eda/Cost_of_the_Product_dist.png" width="600">
+</p>
+
+### 💸 Discount Offered
+<p align="center">
+  <img src="assets/eda/Discount_offered_dist.png" width="600">
+</p>
+
+### ⚖ Weight (in gms)
+<p align="center">
+  <img src="assets/eda/Weight_in_gms_dist.png" width="600">
 </p>
 
 ---
 
-### 🔸 Weight Distribution
+## 🔸 5. Categorical Features vs Delivery Status
+
+### 📦 Warehouse Block vs Status
 <p align="center">
-  <img src="assets/eda/weight_distribution.png" alt="Weight Distribution" width="600"/>
+  <img src="assets/eda/warehouse_vs_status.png" width="700">
+</p>
+
+### 🚚 Mode of Shipment vs Status
+<p align="center">
+  <img src="assets/eda/mode_vs_status.png" width="700">
+</p>
+
+### 🎚 Product Importance vs Status
+<p align="center">
+  <img src="assets/eda/Product_vs_status.png" width="700">
+</p>
+
+### 👤 Gender vs Status
+<p align="center">
+  <img src="assets/eda/Gender_vs_status.png" width="700">
+</p>
+
+### 🛒 Prior Purchases vs Status
+<p align="center">
+  <img src="assets/eda/prior_vs_status.png" width="700">
 </p>
 
 ---
+
+## 🔸 6. Numerical Features vs Delivery Status
+
+### ☎ Customer Care Calls vs Status
+<p align="center">
+  <img src="assets/eda/customer_calls_vs_status.png" width="650">
+</p>
+
+### ⭐ Customer Rating vs Status
+<p align="center">
+  <img src="assets/eda/customer_rating_vs_status.png" width="650">
+</p>
+
+### 💸 Discount Offered vs Status
+<p align="center">
+  <img src="assets/eda/discount_vs_status.png" width="650">
+</p>
+
+### 💰 Cost of the Product vs Status
+<p align="center">
+  <img src="assets/eda/cost_vs_status.png" width="650">
+</p>
+
+### ⚖ Weight vs Status
+<p align="center">
+  <img src="assets/eda/weight_vs_status.png" width="650">
+</p>
+
+---
+
+## 🔥 7. Correlation Heatmap
+<p align="center">
+  <img src="assets/eda/correlation_heatmap.png" width="750">
+</p>
+
+---
+
+
 
 ## ⚖ Handling Class Imbalance
 
