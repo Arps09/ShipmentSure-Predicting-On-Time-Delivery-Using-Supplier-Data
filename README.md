@@ -26,8 +26,8 @@ The project covers the complete end-to-end ML workflow:
 - **Total Records:** 10,999  
 - **Features:** 12 (8 numerical + 4 categorical)  
 - **Target Variable:** `Reached.on.Time_Y.N`  
-  - **0 → On Time**  
-  - **1 → Late**
+  - **0 → Late**  
+  - **1 → On Time**
 
 ### 📌 Class Distribution
 - **Late:** ~60%  
